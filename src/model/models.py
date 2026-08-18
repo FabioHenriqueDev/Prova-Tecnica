@@ -49,7 +49,7 @@ class Products(Base):
     description = Column('description', Text, nullable=False)
     image_url = Column('image_url', String(300), nullable=False)
     category = Column('category', String(100), nullable= False)
-    medical_sector = Column('medical_sector', String(100), nullable=False)
+    medical_sector = Column('medical_sector', String(100))
     created_at = Column('created_at', DateTime, server_default=datetime.now())
 
     company = relationship("Companies", back_populates="products")
