@@ -46,9 +46,9 @@ class Products(Base):
     id = Column('id', Integer, primary_key=True, autoincrement=True)
     company_id = Column('company_id', ForeignKey('companies.id'), nullable=False)
     name = Column('name', String(100), nullable=False)
-    description = Column('description', Text, nullable=False)
-    image_url = Column('image_url', String(300), nullable=False)
-    category = Column('category', String(100), nullable= False)
+    description = Column('description', Text)
+    image_url = Column('image_url', String(300))
+    category = Column('category', String(100))
     medical_sector = Column('medical_sector', String(100))
     created_at = Column('created_at', DateTime, server_default=datetime.now())
 
@@ -64,6 +64,3 @@ class CompanyCertifications(Base):
     created_at = Column('created_at', DateTime, server_default=datetime.now())
 
     company = relationship("Companies", back_populates="certifications")
-
-
-#arqtetura
