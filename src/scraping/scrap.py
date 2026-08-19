@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 from markdownify import markdownify as md
 
-link = 'https://spmmedicare.com'
+link = 'http://lifespine.com.br'
 
 def scraping_site(link: str) -> str:
     requisicao = requests.get(link)
