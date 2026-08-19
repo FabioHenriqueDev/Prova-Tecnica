@@ -19,9 +19,9 @@ prompt_agent = """
 
   ### 1. Categorização do Negócio (`business_type`)
   Deve obrigatoriamente ser **apenas uma** das opções abaixo:
-  - **"Fabricante"**: Se o texto indicar que a empresa fabrica, produz, possui planta industrial/fabril ou desenvolve produtos próprios.
-  - **"Distribuidor"**: Se o texto indicar revenda, representação comercial, importação, exportação de marcas terceiras ou distribuição logísticas.
-  - **"Prestador de serviços"**: Se o foco for manutenção de equipamentos, consultoria, calibração, treinamento, serviços hospitalares ou de saúde.
+  - **"MANUFACTURER"**: Se o texto indicar que a empresa fabrica, produz, possui planta industrial/fabril ou desenvolve produtos próprios.
+  - **"DISTRIBUTOR"**: Se o texto indicar revenda, representação comercial, importação, exportação de marcas terceiras ou distribuição logísticas.
+  - **"SERVICE PROVIDER"**: Se o foco for manutenção de equipamentos, consultoria, calibração, treinamento, serviços hospitalares ou de saúde.
 
   ### 2. Segmentos Médicos (`medical_segments` e `medical_segment`)
   - Mapeie especialidades médicas claras (ex: "Cardiologia", "Ortopedia", "Dermatologia").
@@ -51,7 +51,7 @@ prompt_agent = """
     "email": "E-mail de contato ou null",
     "phone": "Telefone de contato ou null",
     "address": "Endereço físico completo ou null",
-    "business_type": "Fabricante" | "Distribuidor" | "Prestador de Serviços",
+    "business_type": "MANUFACTURER" | "DISTRIBUTOR" | "SERVICE PROVIDER",
     "medical_segments": [
       "Especialidade 1",
       "Especialidade 2"
