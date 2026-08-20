@@ -1,12 +1,11 @@
-# from src.agent.agent import extract_agent  
-# import json
+import streamlit as st
+from extrair_dados import extrair_dados_agente
 
-# with open("site.md", encoding="utf-8") as a:
-#     texto = a.read()
+st.sidebar.title("Company Intelligence")
+opcao_menu = st.sidebar.radio(
+    "Navegação:",
+    ["🚀 Nova Extração", "🏢 Empresas Cadastradas"]
+)
 
-# resultado = extract_agent(texto)
-# print(resultado.model_dump_json(indent=2))
-
-from src.services.company_services import company_service
-
-company_service()
+if opcao_menu == '🚀 Nova Extração':
+    extrair_dados_agente()

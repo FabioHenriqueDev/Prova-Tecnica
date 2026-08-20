@@ -23,6 +23,6 @@ class ProductRepository(ICompanyProductRepository):
             )
 
           
-
+        
         return product_model
         

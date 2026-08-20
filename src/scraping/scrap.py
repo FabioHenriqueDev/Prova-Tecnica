@@ -1,10 +1,11 @@
 import requests
 from bs4 import BeautifulSoup
 from markdownify import markdownify as md
+from src.services.company_services import company_service
 
-link = 'http://lifespine.com.br'
+link = 'https://www.verarosas.com.br'
 
-def scraping_site(link: str) -> str:
+def scraping_site(link: str):
     requisicao = requests.get(link)
     site = BeautifulSoup(requisicao.text, 'html.parser')
 

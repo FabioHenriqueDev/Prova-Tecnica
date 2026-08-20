@@ -8,7 +8,7 @@ class IMedicalSegmentsRepository(ABC):
         ...
 
 class MedicalSegmentRepository(IMedicalSegmentsRepository):
-    def create_segment(self, name_segment, company_id) -> CompanyMedicalSegments:
+    def create_segment(self, name_segment, company_id, db) -> CompanyMedicalSegments:
         segmento_medico = CompanyMedicalSegments(name=name_segment, company_id=company_id)
-
+        db.add(segmento_medico)
         return segmento_medico

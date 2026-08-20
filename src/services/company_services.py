@@ -7,6 +7,7 @@ from src.repositories.medical_segments import MedicalSegmentRepository
 from src.repositories.certifications_repository import CertificationsRepository
 from src.agent.agent import extract_agent
 from src.database.database import get_db
+import time
 
 # pego os dados da IA e jogo na func
 company_repositorie = CompanyRepository()
@@ -14,7 +15,7 @@ product_repository = ProductRepository()
 segment_medical_repository = MedicalSegmentRepository()
 certification_repository = CertificationsRepository()
 
-def company_service() -> Company:
+def company_service(website) -> bool:
 
     with open("site.md", encoding="utf-8") as a:
         texto = a.read()
@@ -25,7 +26,7 @@ def company_service() -> Company:
     with get_db() as db:
         name = resultado.name
         description = resultado.description
-        website = resultado.website
+        
         email = resultado.email
         phone = resultado.phone
         address = resultado.address
@@ -53,20 +54,18 @@ def company_service() -> Company:
 
         if segmentos_medicos:
             for s in segmentos_medicos:
-                segmento_model = segment_medical_repository.create_segment(s, company_id)
-                db.add(segmento_model)
-
-
-        
-
+                time.sleep(0.5)
+                segmento_model = segment_medical_repository.create_segment(s, company_id, db)
+                
         # #CERTIFICACAO
 
         certificacoes = resultado.certifications
 
         if certificacoes:
             for c in certificacoes:
-                certificacao = certification_repository.create_certifications(certification=c, company_id=company_id)
-                db.add(certificacao)
+                time.sleep(0.5)
+                certificacao = certification_repository.create_certifications(certification=c, company_id=company_id, db=db)
+                
         
         db.commit()
 
