@@ -1,5 +1,6 @@
 import streamlit as st
 from extrair_dados import extrair_dados_agente
+from empresas_cadastradas import empresas_cadastradas
 
 st.sidebar.title("Company Intelligence")
 opcao_menu = st.sidebar.radio(
@@ -9,3 +10,5 @@ opcao_menu = st.sidebar.radio(
 
 if opcao_menu == '🚀 Nova Extração':
     extrair_dados_agente()
+elif opcao_menu == '🏢 Empresas Cadastradas':
+    empresas_cadastradas()

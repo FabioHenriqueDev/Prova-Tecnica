@@ -1,6 +1,6 @@
 {
-    "id": "resp_02dd58b750719d75006a870ec8112481a086914a59a9f5ae9d",
-    "created_at": 1787236040.0,
+    "id": "resp_0472986582d9b625006a874f7511c887d2b8f91887dbaeb32e",
+    "created_at": 1787252597.0,
     "error": null,
     "incomplete_details": null,
     "instructions": null,
@@ -9,260 +9,63 @@
     "object": "response",
     "output": [
         {
-            "id": "msg_02dd58b750719d75006a870ec99d2481a0a6b8cce24ba6ec5b",
+            "id": "msg_0472986582d9b625006a874f75d3c487d2952c7bd67d32b63b",
             "content": [
                 {
                     "annotations": [],
-                    "text": "{\n  \"name\": \"SPM Medicare Pvt. Ltd\",\n  \"description\": \"SPM MEDICARE PVT. LTD has set-up a state-of-the-art manufacturing facility in the National Capital Region (NCR) of India for manufacturing Disposable Medical Devices and Surgical Products. Since the Company’s inception in 2015, SPM Medicare has emerged as one of the fastest growing companies in India in the medical sector, and the Company has won laurels for its commitment to Quality and Service in manufacturing and exporting finest products at competitive prices.\",\n  \"website\": \"https://spmmedicare.com/\",\n  \"email\": \"info@spmmedicare.com\",\n  \"phone\": \"+91-8407070718\",\n  \"address\": \"B-40, Phase-II, Noida, U.P.-201305, India\",\n  \"business_type\": \"MANUFACTURER\",\n  \"medical_segments\": [],\n  \"products\": [\n    {\n      \"name\": \"Closed IV Cannula\",\n      \"description\": \"IV Cannula designed for easy vein control with multiple variants.\",\n      \"image_url\": \"https://spmmedicare.com/wp-content/uploads/2024/06/closed-IV-Cannula-2-1536x1503-1-e1768390140947.webp\",\n      \"category\": \"Line Access\",\n      \"medical_segment\": null\n    },\n    {\n      \"name\": \"Safety IV Cannula with wings with port\",\n      \"description\": \"Safety IV Cannula with wings and injection port.\",\n      \"image_url\": \"https://spmmedicare.com/wp-content/uploads/3-1.png\",\n      \"category\": \"Line Access\",\n      \"medical_segment\": null\n    },\n    {\n      \"name\": \"Safety IV Cannula without wings without port\",\n      \"description\": \"Safety IV Cannula without wings and injection port.\",\n      \"image_url\": \"https://spmmedicare.com/wp-content/uploads/4.png\",\n      \"category\": \"Line Access\",\n      \"medical_segment\": null\n    },\n    {\n      \"name\": \"IV Cannula with wings with port\",\n      \"description\": \"IV Cannula designed with wings and injection port.\",\n      \"image_url\": \"https://spmmedicare.com/wp-content/uploads/5.png\",\n      \"category\": \"Line Access\",\n      \"medical_segment\": null\n    },\n    {\n      \"name\": \"IV Cannula without port and without wings\",\n      \"description\": \"IV Cannula without port and wings.\",\n      \"image_url\": \"https://spmmedicare.com/wp-content/uploads/easy-vein-win-1.png\",\n      \"category\": \"Line Access\",\n      \"medical_segment\": null\n    },\n    {\n      \"name\": \"IV Cannula with small wings without port\",\n      \"description\": \"IV Cannula with small wings and no injection port.\",\n      \"image_url\": \"https://spmmedicare.com/wp-content/uploads/IV-cannula-with-wings-scaled.jpg\",\n      \"category\": \"Line Access\",\n      \"medical_segment\": null\n    },\n    {\n      \"name\": \"Prefilled Saline Flush Syringe\",\n      \"description\": \"Prefilled saline flush syringe available in multiple sizes.\",\n      \"image_url\": \"https://spmmedicare.com/wp-content/uploads/2024/06/flush_syringe1-removebg-preview-e1685966368254.webp\",\n      \"category\": \"Line Conditioning\",\n      \"medical_segment\": null\n    },\n    {\n      \"name\": \"Prefilled Heparin Flush Syringe\",\n      \"description\": \"Prefilled Heparin flush syringe.\",\n      \"image_url\": \"https://spmmedicare.com/wp-content/uploads/2025/02/heparin-scaled.jpg\",\n      \"category\": \"Line Conditioning\",\n      \"medical_segment\": null\n    },\n    {\n      \"name\": \"Prefilled Sodium Citrate Flush Syringe - 4%\",\n      \"description\": \"Sodium citrate flush syringe for maintaining line patency.\",\n      \"image_url\": \"https://spmmedicare.com/wp-content/uploads/1-1.png\",\n      \"category\": \"Line Conditioning\",\n      \"medical_segment\": null\n    },\n    {\n      \"name\": \"Pre-filled Syringe with Sterile Water\",\n      \"description\": \"Sterile water pre-filled syringe.\",\n      \"image_url\": \"https://spmmedicare.com/wp-content/uploads/Untitled-2-6-1-1.jpg\",\n      \"category\": \"Line Conditioning\",\n      \"medical_segment\": null\n    },\n    {\n      \"name\": \"Prefilled Syringe with 10% Glycerin Solution\",\n      \"description\": \"Glycerin solution pre-filled syringe.\",\n      \"image_url\": \"https://spmmedicare.com/wp-content/uploads/Untitled-2-8.jpg\",\n      \"category\": \"Line Conditioning\",\n      \"medical_segment\": null\n    },\n    {\n      \"name\": \"Disinfectant Cap\",\n      \"description\": \"Cap with disinfectant properties for medical devices.\",\n      \"image_url\": \"https://spmmedicare.com/wp-content/uploads/disinfection_cap_enhanced1-1.png\",\n      \"category\": \"Line Protection\",\n      \"medical_segment\": null\n    },\n    {\n      \"name\": \"Needle Free Valve\",\n      \"description\": \"Device enabling needle-free injection.\",\n      \"image_url\": \"https://spmmedicare.com/wp-content/uploads/injection-free-valve.jpg\",\n      \"category\": \"Line Protection\",\n      \"medical_segment\": null\n    },\n    {\n      \"name\": \"IV Set Vented With Auto Air Stop filter\",\n      \"description\": \"IV set designed for safe infusion with air stop filter.\",\n      \"image_url\": \"https://spmmedicare.com/wp-content/uploads/Arirsafe-image1.jpg\",\n      \"category\": \"Infusion Therapy\",\n      \"medical_segment\": null\n    },\n    {\n      \"name\": \"Light Resistant Infusion Set with Flow Regulator & Purge filter\",\n      \"description\": \"Special infusion set that protects from light and includes flow regulation.\",\n      \"image_url\": \"https://spmmedicare.com/wp-content/uploads/ACCU-FLOW-PURGE-1.jpg\",\n      \"category\": \"Infusion Therapy\",\n      \"medical_segment\": null\n    },\n    {\n      \"name\": \"Pressure Monitoring Line\",\n      \"description\": \"Monitoring line for pressure measurement in medical applications.\",\n      \"image_url\": \"https://spmmedicare.com/wp-content/uploads/Extensin-line.jpg\",\n      \"category\": \"Infusion Therapy\",\n      \"medical_segment\": null\n    },\n    {\n      \"name\": \"Insulin Syringe\",\n      \"description\": \"Syringe designed specifically for insulin application.\",\n      \"image_url\": \"https://spmmedicare.com/wp-content/uploads/2024/06/spm-image.png\",\n      \"category\": \"Syringe\",\n      \"medical_segment\": null\n    },\n    {\n      \"name\": \"In-Line Arterial Blood Sampling Set\",\n      \"description\": \"Blood sampling set designed for arterial collection.\",\n      \"image_url\": \"https://spmmedicare.com/wp-content/uploads/2024/06/abc-bg-scaled.webp\",\n      \"category\": \"Syringe\",\n      \"medical_segment\": null\n    },\n    {\n      \"name\": \"6×6 Cm CHG Wipes\",\n      \"description\": \"Antibacterial wipes for medical use.\",\n      \"image_url\": \"https://spmmedicare.com/wp-content/uploads/6x6-cm-chg-wipes-500x500-2.webp\",\n      \"category\": \"CHG WIPES\",\n      \"medical_segment\": null\n    },\n    {\n      \"name\": \"10×12 Cm CHG Wipes\",\n      \"description\": \"Antibacterial wipes available in a larger size.\",\n      \"image_url\": \"https://spmmedicare.com/wp-content/uploads/10x12-cm-chg-wipes-500x500-2.webp\",\n      \"category\": \"CHG WIPES\",\n      \"medical_segment\": null\n    },\n    {\n      \"name\": \"20×20 Cm CHG Wipes\",\n      \"description\": \"Extra-large antibacterial wipes.\",\n      \"image_url\": \"https://spmmedicare.com/wp-content/uploads/20x20-cm-chg-wipes-500x500-2.webp\",\n      \"category\": \"CHG WIPES\",\n      \"medical_segment\": null\n    },\n    {\n      \"name\": \"5ml Oral Dosing Syringe\",\n      \"description\": \"Oral dosing syringe designed for easy administration of liquid medications.\",\n      \"image_url\": \"https://spmmedicare.com/wp-content/uploads/5ml-oral-dosing-syringe-500x500-3.webp\",\n      \"category\": \"Oral Dosing Syringe\",\n      \"medical_segment\": null\n    },\n    {\n      \"name\": \"10ml Oral Dosing Syringe\",\n      \"description\": \"Dosing syringe for oral administration.\",\n      \"image_url\": \"https://spmmedicare.com/wp-content/uploads/10ml-oral-dosing-syringe-500x500-3.webp\",\n      \"category\": \"Oral Dosing Syringe\",\n      \"medical_segment\": null\n    },\n    {\n      \"name\": \"20ml Oral Dosing Syringe\",\n      \"description\": \"20ml syringe for oral medication.\",\n      \"image_url\": \"https://spmmedicare.com/wp-content/uploads/20ml-oral-dosing-syringe-500x500-3.webp\",\n      \"category\": \"Oral Dosing Syringe\",\n      \"medical_segment\": null\n    },\n    {\n      \"name\": \"60ml Oral Dosing Syringe\",\n      \"description\": \"60ml dosing syringe designed for greater volume.\",\n      \"image_url\": \"https://spmmedicare.com/wp-content/uploads/60ml-oral-dosing-syringe-500x500-3.webp\",\n      \"category\": \"Oral Dosing Syringe\",\n      \"medical_segment\": null\n    },\n    {\n      \"name\": \"1ml ENFit Syringe\",\n      \"description\": \"ENFit syringe designed for safe feeding administration.\",\n      \"image_url\": \"https://spmmedicare.com/wp-content/uploads/1ml-enfit-syringe-500x500-3.webp\",\n      \"category\": \"ENFIT Syringe\",\n      \"medical_segment\": null\n    },\n    {\n      \"name\": \"3ml ENFit Syringe\",\n      \"description\": \"3ml ENFit syringe for safe liquid administration.\",\n      \"image_url\": \"https://spmmedicare.com/wp-content/uploads/3ml-enfit-syringe-500x500-2.webp\",\n      \"category\": \"ENFIT Syringe\",\n      \"medical_segment\": null\n    },\n    {\n      \"name\": \"5ml ENFit Syringe\",\n      \"description\": \"5ml ENFit syringe designed for precise delivery.\",\n      \"image_url\": \"https://spmmedicare.com/wp-content/uploads/3ml-enfit-syringe-500x500-2.webp\",\n      \"category\": \"ENFIT Syringe\",\n      \"medical_segment\": null\n    },\n    {\n      \"name\": \"10ml ENFit Syringe\",\n      \"description\": \"10ml ENFit syringe for safe feeding administration.\",\n      \"image_url\": \"https://spmmedicare.com/wp-content/uploads/3ml-enfit-syringe-500x500-2.webp\",\n      \"category\": \"ENFIT Syringe\",\n      \"medical_segment\": null\n    },\n    {\n      \"name\": \"20ml ENFit Syringe\",\n      \"description\": \"20ml ENFit syringe for liquid delivery.\",\n      \"image_url\": \"https://spmmedicare.com/wp-content/uploads/20ml-enfit-syringe-500x500-3.webp\",\n      \"category\": \"ENFIT Syringe\",\n      \"medical_segment\": null\n    },\n    {\n      \"name\": \"30ml ENFit Syringe\",\n      \"description\": \"30ml syringe for safe administration.\",\n      \"image_url\": \"https://spmmedicare.com/wp-content/uploads/30ml-enfit-syringe-500x500-3.webp\",\n      \"category\": \"ENFIT Syringe\",\n      \"medical_segment\": null\n    },\n    {\n      \"name\": \"50ml ENFit Syringe\",\n      \"description\": \"50ml ENFit syringe designed for safe, high volume delivery.\",\n      \"image_url\": \"https://spmmedicare.com/wp-content/uploads/50ml-enfit-syringe-1000x1000-1.webp\",\n      \"category\": \"ENFIT Syringe\",\n      \"medical_segment\": null\n    },\n    {\n      \"name\": \"60ml ENFit Syringe\",\n      \"description\": \"60ml ENFit syringe for volumetric feeding.\",\n      \"image_url\": \"https://spmmedicare.com/wp-content/uploads/60ml-enfit-syringe-1000x1000-1.webp\",\n      \"category\": \"ENFIT Syringe\",\n      \"medical_segment\": null\n    }\n  ],\n  \"certifications\": [\n    \"ISO 13485\",\n    \"CE\",\n    \"FDA\"\n  ]\n}",
+                    "text": "{\n  \"name\": \"Life Spine\",\n  \"description\": \"Com início de suas operações em 2002, a Life Spine Implantes tem como meta ser líder e inovadora em sua área de atuação: a comercialização de produtos e serviços para os segmentos de neurocirurgia e implantes de coluna.\",\n  \"website\": \"http://lifespine.com.br/\",\n  \"email\": \"cotacao@lifespine.com.br\",\n  \"phone\": \"(11) 5071-7777\",\n  \"address\": \"Av. João Pedro Cardoso, 189 – Pq. Jabaquara – SP, 04355-000\",\n  \"business_type\": \"DISTRIBUTOR\",\n  \"medical_segments\": [\n    \"Neurocirurgia\",\n    \"Coluna\"\n  ],\n  \"products\": [\n    {\n      \"name\": \"Timberline\",\n      \"description\": \"Sistema de fusão de acesso lateral LLIF, com placa modular de titânio integrada para fixação da coluna lombar.\",\n      \"image_url\": \"http://lifespine.com.br/wp-content/uploads/2022/10/post.png\",\n      \"category\": \"Coluna\",\n      \"medical_segment\": \"Coluna\"\n    },\n    {\n      \"name\": \"ROI-C\",\n      \"description\": \"Solução para coluna cervical.\",\n      \"image_url\": null,\n      \"category\": \"Coluna\",\n      \"medical_segment\": \"Cervical\"\n    },\n    {\n      \"name\": \"MOBI-C\",\n      \"description\": \"Protese de Disco Cervical.\",\n      \"image_url\": null,\n      \"category\": \"Coluna\",\n      \"medical_segment\": \"Cervical\"\n    },\n    {\n      \"name\": \"ROI-A\",\n      \"description\": \"Solução para coluna lombar.\",\n      \"image_url\": null,\n      \"category\": \"Coluna\",\n      \"medical_segment\": \"Lombar\"\n    },\n    {\n      \"name\": \"MOBIDISC-L\",\n      \"description\": \"Protese de Disco Lombar.\",\n      \"image_url\": null,\n      \"category\": \"Coluna\",\n      \"medical_segment\": \"Lombar\"\n    }\n  ],\n  \"certifications\": []\n}",
                     "type": "output_text",
                     "logprobs": [],
                     "parsed": {
-                        "name": "SPM Medicare Pvt. Ltd",
-                        "description": "SPM MEDICARE PVT. LTD has set-up a state-of-the-art manufacturing facility in the National Capital Region (NCR) of India for manufacturing Disposable Medical Devices and Surgical Products. Since the Company’s inception in 2015, SPM Medicare has emerged as one of the fastest growing companies in India in the medical sector, and the Company has won laurels for its commitment to Quality and Service in manufacturing and exporting finest products at competitive prices.",
-                        "website": "https://spmmedicare.com/",
-                        "email": "info@spmmedicare.com",
-                        "phone": "+91-8407070718",
-                        "address": "B-40, Phase-II, Noida, U.P.-201305, India",
-                        "business_type": "MANUFACTURER",
-                        "medical_segments": [],
+                        "name": "Life Spine",
+                        "description": "Com início de suas operações em 2002, a Life Spine Implantes tem como meta ser líder e inovadora em sua área de atuação: a comercialização de produtos e serviços para os segmentos de neurocirurgia e implantes de coluna.",
+                        "website": "http://lifespine.com.br/",
+                        "email": "cotacao@lifespine.com.br",
+                        "phone": "(11) 5071-7777",
+                        "address": "Av. João Pedro Cardoso, 189 – Pq. Jabaquara – SP, 04355-000",
+                        "business_type": "DISTRIBUTOR",
+                        "medical_segments": [
+                            "Neurocirurgia",
+                            "Coluna"
+                        ],
                         "products": [
                             {
-                                "name": "Closed IV Cannula",
-                                "description": "IV Cannula designed for easy vein control with multiple variants.",
-                                "image_url": "https://spmmedicare.com/wp-content/uploads/2024/06/closed-IV-Cannula-2-1536x1503-1-e1768390140947.webp",
-                                "category": "Line Access",
-                                "medical_segment": null
+                                "name": "Timberline",
+                                "description": "Sistema de fusão de acesso lateral LLIF, com placa modular de titânio integrada para fixação da coluna lombar.",
+                                "image_url": "http://lifespine.com.br/wp-content/uploads/2022/10/post.png",
+                                "category": "Coluna",
+                                "medical_segment": "Coluna"
                             },
                             {
-                                "name": "Safety IV Cannula with wings with port",
-                                "description": "Safety IV Cannula with wings and injection port.",
-                                "image_url": "https://spmmedicare.com/wp-content/uploads/3-1.png",
-                                "category": "Line Access",
-                                "medical_segment": null
+                                "name": "ROI-C",
+                                "description": "Solução para coluna cervical.",
+                                "image_url": null,
+                                "category": "Coluna",
+                                "medical_segment": "Cervical"
                             },
                             {
-                                "name": "Safety IV Cannula without wings without port",
-                                "description": "Safety IV Cannula without wings and injection port.",
-                                "image_url": "https://spmmedicare.com/wp-content/uploads/4.png",
-                                "category": "Line Access",
-                                "medical_segment": null
+                                "name": "MOBI-C",
+                                "description": "Protese de Disco Cervical.",
+                                "image_url": null,
+                                "category": "Coluna",
+                                "medical_segment": "Cervical"
                             },
                             {
-                                "name": "IV Cannula with wings with port",
-                                "description": "IV Cannula designed with wings and injection port.",
-                                "image_url": "https://spmmedicare.com/wp-content/uploads/5.png",
-                                "category": "Line Access",
-                                "medical_segment": null
+                                "name": "ROI-A",
+                                "description": "Solução para coluna lombar.",
+                                "image_url": null,
+                                "category": "Coluna",
+                                "medical_segment": "Lombar"
                             },
                             {
-                                "name": "IV Cannula without port and without wings",
-                                "description": "IV Cannula without port and wings.",
-                                "image_url": "https://spmmedicare.com/wp-content/uploads/easy-vein-win-1.png",
-                                "category": "Line Access",
-                                "medical_segment": null
-                            },
-                            {
-                                "name": "IV Cannula with small wings without port",
-                                "description": "IV Cannula with small wings and no injection port.",
-                                "image_url": "https://spmmedicare.com/wp-content/uploads/IV-cannula-with-wings-scaled.jpg",
-                                "category": "Line Access",
-                                "medical_segment": null
-                            },
-                            {
-                                "name": "Prefilled Saline Flush Syringe",
-                                "description": "Prefilled saline flush syringe available in multiple sizes.",
-                                "image_url": "https://spmmedicare.com/wp-content/uploads/2024/06/flush_syringe1-removebg-preview-e1685966368254.webp",
-                                "category": "Line Conditioning",
-                                "medical_segment": null
-                            },
-                            {
-                                "name": "Prefilled Heparin Flush Syringe",
-                                "description": "Prefilled Heparin flush syringe.",
-                                "image_url": "https://spmmedicare.com/wp-content/uploads/2025/02/heparin-scaled.jpg",
-                                "category": "Line Conditioning",
-                                "medical_segment": null
-                            },
-                            {
-                                "name": "Prefilled Sodium Citrate Flush Syringe - 4%",
-                                "description": "Sodium citrate flush syringe for maintaining line patency.",
-                                "image_url": "https://spmmedicare.com/wp-content/uploads/1-1.png",
-                                "category": "Line Conditioning",
-                                "medical_segment": null
-                            },
-                            {
-                                "name": "Pre-filled Syringe with Sterile Water",
-                                "description": "Sterile water pre-filled syringe.",
-                                "image_url": "https://spmmedicare.com/wp-content/uploads/Untitled-2-6-1-1.jpg",
-                                "category": "Line Conditioning",
-                                "medical_segment": null
-                            },
-                            {
-                                "name": "Prefilled Syringe with 10% Glycerin Solution",
-                                "description": "Glycerin solution pre-filled syringe.",
-                                "image_url": "https://spmmedicare.com/wp-content/uploads/Untitled-2-8.jpg",
-                                "category": "Line Conditioning",
-                                "medical_segment": null
-                            },
-                            {
-                                "name": "Disinfectant Cap",
-                                "description": "Cap with disinfectant properties for medical devices.",
-                                "image_url": "https://spmmedicare.com/wp-content/uploads/disinfection_cap_enhanced1-1.png",
-                                "category": "Line Protection",
-                                "medical_segment": null
-                            },
-                            {
-                                "name": "Needle Free Valve",
-                                "description": "Device enabling needle-free injection.",
-                                "image_url": "https://spmmedicare.com/wp-content/uploads/injection-free-valve.jpg",
-                                "category": "Line Protection",
-                                "medical_segment": null
-                            },
-                            {
-                                "name": "IV Set Vented With Auto Air Stop filter",
-                                "description": "IV set designed for safe infusion with air stop filter.",
-                                "image_url": "https://spmmedicare.com/wp-content/uploads/Arirsafe-image1.jpg",
-                                "category": "Infusion Therapy",
-                                "medical_segment": null
-                            },
-                            {
-                                "name": "Light Resistant Infusion Set with Flow Regulator & Purge filter",
-                                "description": "Special infusion set that protects from light and includes flow regulation.",
-                                "image_url": "https://spmmedicare.com/wp-content/uploads/ACCU-FLOW-PURGE-1.jpg",
-                                "category": "Infusion Therapy",
-                                "medical_segment": null
-                            },
-                            {
-                                "name": "Pressure Monitoring Line",
-                                "description": "Monitoring line for pressure measurement in medical applications.",
-                                "image_url": "https://spmmedicare.com/wp-content/uploads/Extensin-line.jpg",
-                                "category": "Infusion Therapy",
-                                "medical_segment": null
-                            },
-                            {
-                                "name": "Insulin Syringe",
-                                "description": "Syringe designed specifically for insulin application.",
-                                "image_url": "https://spmmedicare.com/wp-content/uploads/2024/06/spm-image.png",
-                                "category": "Syringe",
-                                "medical_segment": null
-                            },
-                            {
-                                "name": "In-Line Arterial Blood Sampling Set",
-                                "description": "Blood sampling set designed for arterial collection.",
-                                "image_url": "https://spmmedicare.com/wp-content/uploads/2024/06/abc-bg-scaled.webp",
-                                "category": "Syringe",
-                                "medical_segment": null
-                            },
-                            {
-                                "name": "6×6 Cm CHG Wipes",
-                                "description": "Antibacterial wipes for medical use.",
-                                "image_url": "https://spmmedicare.com/wp-content/uploads/6x6-cm-chg-wipes-500x500-2.webp",
-                                "category": "CHG WIPES",
-                                "medical_segment": null
-                            },
-                            {
-                                "name": "10×12 Cm CHG Wipes",
-                                "description": "Antibacterial wipes available in a larger size.",
-                                "image_url": "https://spmmedicare.com/wp-content/uploads/10x12-cm-chg-wipes-500x500-2.webp",
-                                "category": "CHG WIPES",
-                                "medical_segment": null
-                            },
-                            {
-                                "name": "20×20 Cm CHG Wipes",
-                                "description": "Extra-large antibacterial wipes.",
-                                "image_url": "https://spmmedicare.com/wp-content/uploads/20x20-cm-chg-wipes-500x500-2.webp",
-                                "category": "CHG WIPES",
-                                "medical_segment": null
-                            },
-                            {
-                                "name": "5ml Oral Dosing Syringe",
-                                "description": "Oral dosing syringe designed for easy administration of liquid medications.",
-                                "image_url": "https://spmmedicare.com/wp-content/uploads/5ml-oral-dosing-syringe-500x500-3.webp",
-                                "category": "Oral Dosing Syringe",
-                                "medical_segment": null
-                            },
-                            {
-                                "name": "10ml Oral Dosing Syringe",
-                                "description": "Dosing syringe for oral administration.",
-                                "image_url": "https://spmmedicare.com/wp-content/uploads/10ml-oral-dosing-syringe-500x500-3.webp",
-                                "category": "Oral Dosing Syringe",
-                                "medical_segment": null
-                            },
-                            {
-                                "name": "20ml Oral Dosing Syringe",
-                                "description": "20ml syringe for oral medication.",
-                                "image_url": "https://spmmedicare.com/wp-content/uploads/20ml-oral-dosing-syringe-500x500-3.webp",
-                                "category": "Oral Dosing Syringe",
-                                "medical_segment": null
-                            },
-                            {
-                                "name": "60ml Oral Dosing Syringe",
-                                "description": "60ml dosing syringe designed for greater volume.",
-                                "image_url": "https://spmmedicare.com/wp-content/uploads/60ml-oral-dosing-syringe-500x500-3.webp",
-                                "category": "Oral Dosing Syringe",
-                                "medical_segment": null
-                            },
-                            {
-                                "name": "1ml ENFit Syringe",
-                                "description": "ENFit syringe designed for safe feeding administration.",
-                                "image_url": "https://spmmedicare.com/wp-content/uploads/1ml-enfit-syringe-500x500-3.webp",
-                                "category": "ENFIT Syringe",
-                                "medical_segment": null
-                            },
-                            {
-                                "name": "3ml ENFit Syringe",
-                                "description": "3ml ENFit syringe for safe liquid administration.",
-                                "image_url": "https://spmmedicare.com/wp-content/uploads/3ml-enfit-syringe-500x500-2.webp",
-                                "category": "ENFIT Syringe",
-                                "medical_segment": null
-                            },
-                            {
-                                "name": "5ml ENFit Syringe",
-                                "description": "5ml ENFit syringe designed for precise delivery.",
-                                "image_url": "https://spmmedicare.com/wp-content/uploads/3ml-enfit-syringe-500x500-2.webp",
-                                "category": "ENFIT Syringe",
-                                "medical_segment": null
-                            },
-                            {
-                                "name": "10ml ENFit Syringe",
-                                "description": "10ml ENFit syringe for safe feeding administration.",
-                                "image_url": "https://spmmedicare.com/wp-content/uploads/3ml-enfit-syringe-500x500-2.webp",
-                                "category": "ENFIT Syringe",
-                                "medical_segment": null
-                            },
-                            {
-                                "name": "20ml ENFit Syringe",
-                                "description": "20ml ENFit syringe for liquid delivery.",
-                                "image_url": "https://spmmedicare.com/wp-content/uploads/20ml-enfit-syringe-500x500-3.webp",
-                                "category": "ENFIT Syringe",
-                                "medical_segment": null
-                            },
-                            {
-                                "name": "30ml ENFit Syringe",
-                                "description": "30ml syringe for safe administration.",
-                                "image_url": "https://spmmedicare.com/wp-content/uploads/30ml-enfit-syringe-500x500-3.webp",
-                                "category": "ENFIT Syringe",
-                                "medical_segment": null
-                            },
-                            {
-                                "name": "50ml ENFit Syringe",
-                                "description": "50ml ENFit syringe designed for safe, high volume delivery.",
-                                "image_url": "https://spmmedicare.com/wp-content/uploads/50ml-enfit-syringe-1000x1000-1.webp",
-                                "category": "ENFIT Syringe",
-                                "medical_segment": null
-                            },
-                            {
-                                "name": "60ml ENFit Syringe",
-                                "description": "60ml ENFit syringe for volumetric feeding.",
-                                "image_url": "https://spmmedicare.com/wp-content/uploads/60ml-enfit-syringe-1000x1000-1.webp",
-                                "category": "ENFIT Syringe",
-                                "medical_segment": null
+                                "name": "MOBIDISC-L",
+                                "description": "Protese de Disco Lombar.",
+                                "image_url": null,
+                                "category": "Coluna",
+                                "medical_segment": "Lombar"
                             }
                         ],
-                        "certifications": [
-                            "ISO 13485",
-                            "CE",
-                            "FDA"
-                        ]
+                        "certifications": []
                     }
                 }
             ],
@@ -278,7 +81,7 @@
     "tools": [],
     "top_p": 1.0,
     "background": false,
-    "completed_at": 1787236072.0,
+    "completed_at": 1787252602.0,
     "conversation": null,
     "max_output_tokens": null,
     "max_tool_calls": null,
@@ -471,16 +274,16 @@
     "top_logprobs": 0,
     "truncation": "disabled",
     "usage": {
-        "input_tokens": 9537,
+        "input_tokens": 3444,
         "input_tokens_details": {
             "cache_write_tokens": 0,
             "cached_tokens": 0
         },
-        "output_tokens": 2772,
+        "output_tokens": 466,
         "output_tokens_details": {
             "reasoning_tokens": 0
         },
-        "total_tokens": 12309
+        "total_tokens": 3910
     },
     "user": null,
     "billing": {

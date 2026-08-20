@@ -2,11 +2,17 @@ from abc import ABC, abstractmethod
 from src.domain.entities.product_entites import CompanyProducts
 from src.database.database import get_db
 from src.model.models import Products
+from src.database.database import get_db
+from sqlalchemy import select
 
 class ICompanyProductRepository(ABC):
 
     @abstractmethod
     def create_product(self, product: CompanyProducts) -> CompanyProducts:
+        ...
+    
+    @abstractmethod
+    def get_all(self):
         ...
 
 
@@ -25,4 +31,9 @@ class ProductRepository(ICompanyProductRepository):
           
         
         return product_model
-        
+
+    def get_all(self):
+         with get_db() as db:
+            query = select(Products)
+            produtos = db.scalars(query).all()
+            return produtos

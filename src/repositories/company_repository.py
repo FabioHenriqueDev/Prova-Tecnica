@@ -1,6 +1,8 @@
 from abc import ABC, abstractmethod
 from src.domain.entities.company_entities import Company
 from src.model.models import Companies
+from src.database.database import get_db
+from sqlalchemy import select
 
 class ICompanyRepository(ABC):
 
@@ -12,9 +14,9 @@ class ICompanyRepository(ABC):
     # def get_by_id(self, company_id: int):
     #     ...
 
-    # @abstractmethod
-    # def get_all(self):
-    #     ...
+    @abstractmethod
+    def get_all(self):
+        ...
 
 
 class CompanyRepository(ICompanyRepository):
@@ -34,10 +36,10 @@ class CompanyRepository(ICompanyRepository):
         db.flush()
 
         return company_model
-        
 
-    # def get_by_id(self, company_id: int):
-    #         ...
-
-    # def get_all(self):
-    #         ...
+    
+    def get_all(self):
+        with get_db() as db:
+            query = select(Companies)
+            empresas = db.scalars(query).all()
+            return empresas
